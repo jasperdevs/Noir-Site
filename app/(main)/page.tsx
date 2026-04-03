@@ -25,14 +25,14 @@ export default function Page() {
         <CardGrid rowHeight={280}>
           <CardGrid.IconCard
             maxWidth="third"
-            iconName="sparkles"
+            iconName="auto_awesome"
             title="AI-Powered Picks"
             description="Get personalized recommendations that get smarter the more you use them."
           />
 
           <CardGrid.IconCard
             maxWidth="third"
-            iconName="movie"
+            iconName="movie_filter"
             title="Real Data"
             description="IMDb, Rotten Tomatoes, Metascore, streaming availability — all in one place."
           />

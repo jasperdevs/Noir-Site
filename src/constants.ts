@@ -1,6 +1,6 @@
 import { ColorScheme } from "./types/shared";
 
-export const THEME: "system" | "light" | "dark" = "dark";
+export const THEME: "system" | "light" | "dark" = "light";
 
 export const APP_ID = "1234567890";
 
@@ -8,9 +8,8 @@ export const WHIMSICAL_FONT = undefined;
 export const CURSIVE_FONT = undefined;
 
 export const MATERIAL_SYMBOLS = [
-  "sparkles",
-  "movie",
-  "bookmark",
+  "auto_awesome",
+  "movie_filter",
   "shield",
   "send",
   "check_circle",
@@ -26,38 +25,38 @@ export const MATERIAL_SYMBOLS = [
 
 export const COLORS: ColorScheme = {
   LIGHT: {
-    "text-primary": "#FFFFFF",
-    "text-secondary": "rgba(255, 255, 255, 0.55)",
-    "fill-0": "#000000",
-    "fill-1": "#0A0A0A",
-    "fill-2": "#1A1A1A",
-    "fill-3": "#2A2A2A",
-    "accent-brand": "#FFFFFF",
-    "accent-orange": "#FF9230",
-    "accent-green": "#30D158",
-    "accent-red": "#FF453A",
-    "accent-blue": "#0A84FF",
-    "accent-indigo": "#5E5CE6",
-    "accent-mint": "#63E6E2",
-    "accent-purple": "#BF5AF2",
-    "accent-pink": "#FF375F",
+    "text-primary": "#000000",
+    "text-secondary": "rgba(0, 0, 0, 0.50)",
+    "fill-0": "#FFFFFF",
+    "fill-1": "#FAFAFA",
+    "fill-2": "#F0F0F0",
+    "fill-3": "#E0E0E0",
+    "accent-brand": "#000000",
+    "accent-orange": "#FF8D28",
+    "accent-green": "#34C759",
+    "accent-red": "#FF3B30",
+    "accent-blue": "#007AFF",
+    "accent-indigo": "#5856D6",
+    "accent-mint": "#00C7BE",
+    "accent-purple": "#AF52DE",
+    "accent-pink": "#FF2D55",
   },
   DARK: {
-    "text-primary": "#FFFFFF",
-    "text-secondary": "rgba(255, 255, 255, 0.55)",
-    "fill-0": "#000000",
-    "fill-1": "#0A0A0A",
-    "fill-2": "#1A1A1A",
-    "fill-3": "#2A2A2A",
-    "accent-brand": "#FFFFFF",
-    "accent-orange": "#FF9230",
-    "accent-green": "#30D158",
-    "accent-red": "#FF453A",
-    "accent-blue": "#0A84FF",
-    "accent-indigo": "#5E5CE6",
-    "accent-mint": "#63E6E2",
-    "accent-purple": "#BF5AF2",
-    "accent-pink": "#FF375F",
+    "text-primary": "#000000",
+    "text-secondary": "rgba(0, 0, 0, 0.50)",
+    "fill-0": "#FFFFFF",
+    "fill-1": "#FAFAFA",
+    "fill-2": "#F0F0F0",
+    "fill-3": "#E0E0E0",
+    "accent-brand": "#000000",
+    "accent-orange": "#FF8D28",
+    "accent-green": "#34C759",
+    "accent-red": "#FF3B30",
+    "accent-blue": "#007AFF",
+    "accent-indigo": "#5856D6",
+    "accent-mint": "#00C7BE",
+    "accent-purple": "#AF52DE",
+    "accent-pink": "#FF2D55",
   },
 } as const;
 

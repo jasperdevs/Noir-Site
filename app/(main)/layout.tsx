@@ -1,6 +1,7 @@
 import { APP_ID, IS_WAITLIST_ENABLED, THEME } from "@/constants";
 import type { Metadata, Viewport } from "next";
 
+import { AppIcon } from "@/components/app_icon/app_icon";
 import { CompactFooter } from "@/components/compact_footer/compact_footer";
 import { DownloadActionButton } from "@/components/download_action_button/download_action_button";
 import { MaterialSymbolsLink } from "@/components/material_symbols_link/material_symbols_link";
@@ -65,7 +66,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider>
           <Navbar
-            icon={<span style={{ fontSize: 24 }}>N</span>}
+            icon={<AppIcon src="/noir-icon.svg" />}
             appName="Noir"
             links={[
               { label: "Features", href: "#features" },
@@ -77,7 +78,7 @@ export default function RootLayout({
           {children}
 
           <CompactFooter
-            appIcon={<span style={{ fontSize: 20 }}>N</span>}
+            appIcon={<AppIcon src="/noir-icon.svg" filter="grayscale" />}
             links={[
               { label: "Privacy", href: "/privacy" },
               {
